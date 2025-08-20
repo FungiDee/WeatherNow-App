@@ -35,5 +35,15 @@ h1 {
   font-size: 14px;
   color: #666;
   margin-bottom: 15px;
-  margin-top: 5px;
+  margin-top: 0px;
+}
+.details {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+  font-size: 14px;
+}
+.detail p {
+  margin: 0;
 }
