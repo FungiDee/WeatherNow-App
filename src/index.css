@@ -9,10 +9,16 @@ body {
 
 h1 {
   color: black;
+  margin: 0;
+  font-size: 28px;
+  line-height: 38px;
 }
 header {
   border-bottom: 1px solid #792778;
   padding: 0 0 30px 0;
+}
+main {
+  padding: 25px 0;
 }
 .weather {
   background: #ffffff;
@@ -47,9 +53,13 @@ header {
   align-items: center;
   margin-bottom: 20px;
   font-size: 14px;
+  color: rgba(39, 33, 66, 0.7);
 }
 .detail p {
   margin: 0;
+}
+.details strong {
+  color: #fc709b;
 }
 .search-form-input {
   border: none;
