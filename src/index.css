@@ -10,6 +10,10 @@ body {
 h1 {
   color: black;
 }
+header {
+  border-bottom: 1px solid #792778;
+  padding: 0 0 30px 0;
+}
 .weather {
   background: #ffffff;
   border-radius: 20px;
@@ -52,11 +56,26 @@ h1 {
   border-radius: 6px;
   width: 70%;
   font-size: 16px;
-  padding: 15px;
+  padding: 10px;
   background-color: #d8dde0;
 }
 h1,
 p {
   margin: 0;
   padding: 0;
+}
+.search-form-button {
+  background-color: #662eed;
+  padding: 10px;
+  border: none;
+  color: #ffffff;
+  border-radius: 6px;
+  margin-left: 5px;
+}
+footer {
+  border-top: 1px solid #792778;
+  padding: 30px 0 0 0;
+  text-align: center;
+  font-size: 12px;
+  color: rgba(0, 0, 0, 0.6);
 }
