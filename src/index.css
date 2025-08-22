@@ -14,7 +14,7 @@ h1 {
   background: #ffffff;
   border-radius: 20px;
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
-  width: 320px;
+  max-width: 320px;
   padding: 20px;
   text-align: center;
 }
@@ -46,4 +46,17 @@ h1 {
 }
 .detail p {
   margin: 0;
+}
+.search-form-input {
+  border: none;
+  border-radius: 6px;
+  width: 70%;
+  font-size: 16px;
+  padding: 15px;
+  background-color: #d8dde0;
+}
+h1,
+p {
+  margin: 0;
+  padding: 0;
 }
