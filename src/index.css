@@ -45,6 +45,8 @@ main {
   font-size: 28px;
   font-weight: bold;
   flex-direction: column;
+  margin-top: 20px;
+  padding: 10px;
 }
 .emoji {
   font-size: 50px;
